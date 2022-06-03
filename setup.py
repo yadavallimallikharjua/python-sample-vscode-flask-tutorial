@@ -10,7 +10,7 @@ setup(
     author='yadavallimallikharjuna',
     author_email='yadavallimallikharjuna@gmail.com',
     url='https://github.com/yadavallimallikharjua/python-sample-vscode-flask-tutorial.git',
-    packages=['pythonTest'],
+    packages=setuptools.find_packages(),
     install_requires=['PyYAML>3.11', 'nltk'],
 )
 
