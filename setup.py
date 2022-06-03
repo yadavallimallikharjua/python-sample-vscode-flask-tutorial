@@ -13,9 +13,9 @@ setuptools.setup(
 
     description="Package for testing uploads [PyPI]",
 
-    url="https://github.com/yadavallimallikharjua/python-sample-vscode-flask-tutorial.git"
+    url="https://github.com/yadavallimallikharjua/python-sample-vscode-flask-tutorial.git",
 
 
-    python_requires='>=3.8',
+    python_requires='>=3.8'
 
 )
