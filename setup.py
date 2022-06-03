@@ -1,17 +1,30 @@
+ 
+import setuptools
 
-  #!/usr/bin/env python
+setuptools.setup(
 
-from setuptools import setup
+    name="mallikharjuna",
 
-setup(
-    name='jfrog-python',
-    version='1.0',
-    description='building Python project with JFrog products',
-    author='yadavallimallikharjuna',
-    author_email='yadavallimallikharjuna@gmail.com',
-    url='https://github.com/yadavallimallikharjua/python-sample-vscode-flask-tutorial.git',
+    version="1.1.2",
+
+    author="yadavalli mallikharjuna",
+
+    author_email="yadavallimallikharjuna@gmail.com",
+
+    description="Package for testing uploads [PyPI]",
+
     packages=setuptools.find_packages(),
-    install_requires=['PyYAML>3.11', 'nltk'],
+
+    classifiers=[
+
+        "Programming Language :: Python :: 3",
+
+        "License :: OSI Approved :: MIT License",
+
+        "Operating System :: OS Independent",
+
+    ],
+
+    python_requires='>=3.8',
+
 )
-
-
