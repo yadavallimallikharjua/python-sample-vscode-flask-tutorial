@@ -13,7 +13,7 @@ setuptools.setup(
 
     description="Package for testing uploads [PyPI]",
 
-    packages=setuptools.find_packages(),
+    url="https://github.com/yadavallimallikharjua/python-sample-vscode-flask-tutorial.git"
 
     classifiers=[
 
